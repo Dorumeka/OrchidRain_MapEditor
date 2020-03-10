@@ -1,0 +1,100 @@
+ManifestFileVersion: 0
+CRC: 2871180931
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04b7d126e4c7bc251f674238f514b5fa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0cd0ce942fa7bc9eb61ec7396cd8c523
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: cd215500ccd0f2945b2d36de0a1e6cb9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 58fdd7f068e8fd64d99cd37152dd1f4a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 259a78d1f8069d847b7fb5d2ceaf48cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b5746ad17759a9a40adc0d13a7e06835, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 464e1115fadbf484ea515de2546a068f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 261afa77582d053409c614c739b71977, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e542238d6388c94bb0a5285397aa72d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 713ee36a34848eb4f96fc26ca748530d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24076f4cba6e5da4d8b0b1ae26c82ce0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b74bac6c0624c8646854e35117a6a4d3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a9a3878cd0a723042b48aad8409a7f0a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81cdf8dc963cc3d41bfc24f5f501f652, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45104f4e5c7489448b9c58de92f2ec2b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbc095af9642a1a4c93af89a8b821f90, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 66c098425a9bbe84a881efd196571be9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 208
+  Script: {instanceID: 0}
+- Class: 220
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Template_Mission/Template_Mission.unity
+Dependencies: []

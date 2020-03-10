@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2418558581
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: blank_test
+      Dependencies: {}
+    Info_1:
+      Name: blank_test_map
+      Dependencies: {}

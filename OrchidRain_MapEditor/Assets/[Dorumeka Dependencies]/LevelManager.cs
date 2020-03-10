@@ -1,0 +1,11 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LevelManager : MonoBehaviour {
+	public static LevelManager levelManager;
+
+	[Space(10)]
+	[Header("Variables")]
+	public bool endLevelOnComplete = true;
+}
