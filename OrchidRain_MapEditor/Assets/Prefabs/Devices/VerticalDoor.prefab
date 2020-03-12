@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e542238d6388c94bb0a5285397aa72d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixerGroup: {fileID: 0}
+  audioMixerGroup: {fileID: 243322304464805368, guid: a8d682f7003ad7947b70e4201466d159,
+    type: 2}
   clips: []
   volume: 1
   maxDistance: 20
@@ -160,6 +161,7 @@ GameObject:
   - component: {fileID: 3557706033544930769}
   - component: {fileID: 5252057064234958193}
   - component: {fileID: 6850632455427556944}
+  - component: {fileID: 779303403394793585}
   m_Layer: 14
   m_Name: Cube
   m_TagString: Untagged
@@ -253,3 +255,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventTriggerId: 11
   repetitions: -1
+--- !u!114 &779303403394793585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373771902893042374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff

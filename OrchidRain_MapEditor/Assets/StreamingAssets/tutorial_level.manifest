@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 143398262
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e89aab50e502bcddfc43a08bb019b556
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fa699ea0340a37d159504b5bfc1808af
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2588e5713688b146b459e11019376bf, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/LevelContainer.prefab
+Dependencies: []

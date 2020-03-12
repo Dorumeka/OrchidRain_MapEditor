@@ -55,7 +55,7 @@ public enum Npc_Type {
 };
 
 public enum Faction {
-	BlueRainCorp,
+	OrchidRainCorp,
 	CruzInstitute,
 	Monsters
 };
@@ -207,6 +207,9 @@ public enum MapType {
 
 public enum VisualNovelAnimation {
 	None,
+	FromLeft,
+	FromRight,
+	FadeIn,
 	Shake
 };
 
@@ -276,4 +279,14 @@ public struct HairOverrides {
 public struct HatOverrides {
 	[Range(0f, 1f)]
 	public float hatChance;
+}
+
+public enum HealthPickups {
+	MedPack_Small,
+	MedPack_Medium
+}
+
+public enum GameMusic {
+	LevelA_TheStartOfRedsJourney,
+	LevelB_SecretLab
 }

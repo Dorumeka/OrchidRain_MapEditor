@@ -8,4 +8,5 @@ public class LevelManager : MonoBehaviour {
 	[Space(10)]
 	[Header("Variables")]
 	public bool endLevelOnComplete = true;
+	public bool endLevelOnFailure = false;
 }

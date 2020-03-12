@@ -29,4 +29,5 @@ public struct VN_Line {
 	[TextArea] public string text;
 	public VisualNovelAnimation animation;
 	[Range(-1f, 1f)] public float screenPosition;
+	public AudioClip lineVoiceClip;
 }

@@ -18,5 +18,5 @@ public class NpcSpawner : MonoBehaviour {
 	public HatOverrides hatOverrides;
 	public SkinOverrides skinOverrides;
 
-	public List<Transform> waypoints = new List<Transform>();
+	//public List<Transform> waypoints = new List<Transform>();
 }

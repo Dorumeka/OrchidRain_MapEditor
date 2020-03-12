@@ -7,7 +7,7 @@ public struct ArmorSpawnInformation {
 	public ArmorSets armorSets;
 	[Range(0f, 1f)]
 	public float armorChance;
-	public bool overrideHair;
+	//public bool overrideHair;
 	[Range(0f, 1f)]
 	public float chanceForHead;
 	[Range(0f, 1f)]

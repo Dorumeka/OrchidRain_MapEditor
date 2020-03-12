@@ -7,9 +7,4 @@ public class InteractableButton : MonoBehaviour {
 	[Header("Dependencies")]
 	public ButtonSoundPlayer buttonSoundPlayer;
 	public Animator animator;
-
-	void PlayerInteract () {
-		buttonSoundPlayer.Play();
-		animator.SetTrigger("Press");
-	}
 }

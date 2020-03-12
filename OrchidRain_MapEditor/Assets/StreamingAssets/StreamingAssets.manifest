@@ -1,10 +1,14 @@
 ManifestFileVersion: 0
-CRC: 2418558581
+CRC: 1788028306
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: blank_test
-      Dependencies: {}
+      Name: tutorial_map_map
+      Dependencies:
+        Dependency_0: tutorial_level
     Info_1:
-      Name: blank_test_map
+      Name: tutorial_level
+      Dependencies: {}
+    Info_2:
+      Name: tutorial_level_map
       Dependencies: {}
