@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class GenericAudioPlayer : AudioManager {
 	[Space(5f)]
 	[Header("Dependencies")]
-	public AudioMixerGroup audioMixerGroup;
+	public AudioType audioType;
 	public AudioClip[] clips;
 
 	[Space(5f)]

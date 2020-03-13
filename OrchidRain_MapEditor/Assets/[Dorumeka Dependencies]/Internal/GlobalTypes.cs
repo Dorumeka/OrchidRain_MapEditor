@@ -287,6 +287,14 @@ public enum HealthPickups {
 }
 
 public enum GameMusic {
+	None,
 	LevelA_TheStartOfRedsJourney,
 	LevelB_SecretLab
+}
+
+public enum AudioType {
+	Music,
+	SFX,
+	UI,
+	Voice
 }

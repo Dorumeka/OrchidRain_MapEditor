@@ -183,8 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc095af9642a1a4c93af89a8b821f90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixerGroup: {fileID: 243322304464805368, guid: a8d682f7003ad7947b70e4201466d159,
-    type: 2}
+  audioType: 1
   clips: []
   volume: 1
   maxDistance: 20

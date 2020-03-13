@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class SoundReceiver : EventReceiver {
 	private GenericAudioPlayer _audioPlayer;
 }
