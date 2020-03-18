@@ -1,6 +1,4 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum Ai_Weapon {
 	Random,
@@ -196,8 +194,14 @@ public enum VoiceClip {
 
 public enum DoruPersonality {
 	Generic,
-	Sensual,
+	Dominating,
 	Shy
+};
+public enum DoruPersonalitySelector {
+	Generic,
+	Dominating,
+	Shy,
+	Random
 };
 
 public enum MapType {
@@ -238,6 +242,7 @@ public enum HealthState {
 	Alive,
 	PassedOut,
 	Dead,
+	Captured,
 	Saved
 };
 
@@ -297,4 +302,16 @@ public enum AudioType {
 	SFX,
 	UI,
 	Voice
+}
+
+public enum CaptureRigComponent {
+	Body,
+	LeftHand,
+	RightHand,
+	LeftFoot,
+	RightFoot,
+	LeftArmTarget,
+	RightArmTarget,
+	LeftLegTarget,
+	RightLegTarget
 }
