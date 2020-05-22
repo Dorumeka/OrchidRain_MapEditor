@@ -12,6 +12,9 @@ public class LightProbePlacement : EditorWindow {
 
 	float mergeDistance = 1;
 	GameObject probeObject;
+	float additionalHeight = 0.1f;
+	float layerHeight = 1f;
+	int numberOfLayers = 0;
 
 	[MenuItem ("Window/Generate Light Probes")]
 	static void Init() {
@@ -80,7 +83,7 @@ public class LightProbePlacement : EditorWindow {
 							newProbe += prooo;
 						}
 						newProbe /= nearbyProbes.ToArray ().Length;
-						newProbe += Vector3.up;
+						newProbe += Vector3.up * additionalHeight;
 
 						mergedProbes.Add (newProbe);
 						done += 1;
@@ -92,6 +95,17 @@ public class LightProbePlacement : EditorWindow {
 					newProbes[i] = newProbes[i] + Vector3.up;
 				}*/
 
+				//duplicate mergedProbes and move everything up by layerHeight
+				//Debug.Log(mergedProbes.Count);
+				List<Vector3> originalGeneratedProbes = new List<Vector3>(mergedProbes);
+				for (int i = 0; i < numberOfLayers; i++) {
+					List<Vector3> probeLayer = new List<Vector3>(originalGeneratedProbes);
+					foreach (Vector3 pl in probeLayer) {
+						Vector3 pos = pl;
+						pos.y += layerHeight * (i + 1);
+						mergedProbes.Add(pos);
+					}
+				}
 
 				current = "Final steps...";
 				EditorUtility.DisplayProgressBar ("Generating probes", current, progress);
@@ -118,6 +132,9 @@ public class LightProbePlacement : EditorWindow {
 		}
 		mergeDistance = EditorGUILayout.FloatField ("Vector merge distance",mergeDistance);
 		probeObject = (GameObject)EditorGUILayout.ObjectField ("Probe GameObject" , probeObject, typeof(GameObject), true);
+		additionalHeight = EditorGUILayout.FloatField ("Additional probe height",additionalHeight);
+		layerHeight = EditorGUILayout.FloatField ("Light probe layer height",layerHeight);
+		numberOfLayers = EditorGUILayout.IntField ("Number of extra Light Probe layers",numberOfLayers);
 		EditorGUILayout.LabelField ("This script will automatically generate light probe positions based on the current navmesh.");
 		EditorGUILayout.LabelField ("Please make sure that you have generated a navmesh before using the script.");
 
