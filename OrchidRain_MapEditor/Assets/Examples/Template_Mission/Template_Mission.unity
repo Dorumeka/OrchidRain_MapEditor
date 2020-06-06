@@ -1307,6 +1307,36 @@ PrefabInstance:
       propertyPath: spawnAtStart
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForBack
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForUpperArm_L
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForUpperArm_R
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForButt
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForThigh_L
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: armorSpawnInfo.chanceForThigh_R
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 958111098, guid: bedd10d3cf91e974d9eb6a8494a8142e, type: 3}
       propertyPath: eventTriggerId
       value: 1

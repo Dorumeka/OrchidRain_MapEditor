@@ -7,17 +7,32 @@ public struct ArmorSpawnInformation {
 	public ArmorSets armorSets;
 	[Range(0f, 1f)]
 	public float armorChance;
-	//public bool overrideHair;
 	[Range(0f, 1f)]
 	public float chanceForHead;
 	[Range(0f, 1f)]
 	public float chanceForChest;
 	[Range(0f, 1f)]
-	public float chanceForArms;
+	public float chanceForBack;
+	[Range(0f, 1f)]
+	public float chanceForUpperArm_L;
+	[Range(0f, 1f)]
+	public float chanceForUpperArm_R;
+	[Range(0f, 1f)]
+	public float chanceForLowerArm_L;
+	[Range(0f, 1f)]
+	public float chanceForLowerArm_R;
 	[Range(0f, 1f)]
 	public float chanceForBelly;
 	[Range(0f, 1f)]
 	public float chanceForPelvis;
 	[Range(0f, 1f)]
-	public float chanceForLegs;
+	public float chanceForButt;
+	[Range(0f, 1f)]
+	public float chanceForThigh_L;
+	[Range(0f, 1f)]
+	public float chanceForThigh_R;
+	[Range(0f, 1f)]
+	public float chanceForCalf_L;
+	[Range(0f, 1f)]
+	public float chanceForCalf_R;
 }
