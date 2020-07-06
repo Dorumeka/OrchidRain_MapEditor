@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 public enum Ai_Weapon {
 	Random,
 	Unarmed,
 	TR8_R,
+	Dartgun,
 	Makarov,
 	MakarovSilenced,
 	SMG,
@@ -40,6 +42,7 @@ public enum Waypoints_Behavior {
 };
 
 public enum Npc_Type {
+	Random,
 	Grunt,
 	Officer,
 	Naked,
@@ -49,7 +52,7 @@ public enum Npc_Type {
 	CombatMedicB,
 	LewdDoru,
 	NekoDoru,
-	Random
+	Underwear
 };
 
 public enum Faction {
@@ -136,7 +139,8 @@ public enum BoneType {
 	R_LowerArm,
 	R_Hand,
 	Neck,
-	Head
+	Head,
+	Face
 };
 
 public enum GibType {
@@ -314,4 +318,130 @@ public enum CaptureRigComponent {
 	RightArmTarget,
 	LeftLegTarget,
 	RightLegTarget
+}
+
+[System.Serializable]
+public struct CharacterCustomizationInfo {
+	public string name;
+	public int characterId;
+	public Gender gender;
+	public Npc_Type character;
+	public DoruPersonality personality;
+	public ArmorSpawnInformation armorInfo;
+	public Ai_Weapon weapon;
+	[SerializeField] public SerializableColor skinColor;
+	[SerializeField] public SerializableColor eyeColor;
+	public HairStyle hairStyle;
+	[SerializeField] public SerializableColor hairColor;
+	public CharacterProportions proportions;
+	//hats and accesories too
+	[SerializeField] public List<StoredAccessory> storedAccessories;
+}
+
+[System.Serializable]
+public struct CharacterProportions {
+	public float scale;
+	public float height;
+	public float boobSize;
+	public float buttSize;
+	public float dickSize;
+}
+
+public enum Gender {
+	Female,
+	Male
+}
+
+[System.Serializable]
+public class SerializableColor {
+	public float _r;
+	public float _g;
+	public float _b;
+	public float _a;
+
+	public Color Color {
+		get {
+			return new Color(_r, _g, _b, _a);
+		}
+		set {
+			_r = value.r;
+			_g = value.g;
+			_b = value.b;
+			_a = value.a;
+		}
+	}
+
+	public SerializableColor () {
+		_r = 1f;
+		_g = 1f;
+		_b = 1f;
+		_a = 1f;
+
+		/*_r = Random.Range(0f, 1f);
+		_g = Random.Range(0f, 1f);
+		_b = Random.Range(0f, 1f);
+		_a = 1f;*/
+
+	}
+
+	public SerializableColor (float r, float g, float b, float a = 0f) {
+		_r = r;
+		_g = g;
+		_b = b;
+		_a = a;
+	}
+
+	public SerializableColor (Color color) {
+		_r = color.r;
+		_g = color.g;
+		_b = color.b;
+		_a = color.a;
+	}
+}
+
+public enum Expression {
+	Idle,
+	Happy,
+	Angry,
+	Sad,
+	Pain,
+	Scared,
+	Embarrassed,
+	Sex_Idle,
+	Sex_Low,
+	Sex_High,
+	Orgasm,
+	PostOrgasm,
+	Talk
+}
+
+public enum SexPoses {
+	Study,
+	PassedOut,
+	Trashed,
+	UpsideDown
+}
+
+public enum SexRigs {
+	GagRack
+}
+
+public enum GameCharacters {
+	Red,
+	Vanessa,
+	CCruz,
+	Vickard
+}
+
+public enum DickType {
+	None,
+	Dildo
+}
+
+[System.Serializable]
+public class StoredAccessory {
+	public BoneType boneType;
+	public int id;
+	public bool active = true;
+	public SerializableColor color;
 }

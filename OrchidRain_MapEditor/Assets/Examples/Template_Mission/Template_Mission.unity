@@ -389,6 +389,11 @@ PrefabInstance:
       propertyPath: skinOverrides.eyeColors.Array.data[0].g
       value: 0.47450984
       objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: npcType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 958111098, guid: bedd10d3cf91e974d9eb6a8494a8142e, type: 3}
       propertyPath: eventTriggerId
       value: 1
@@ -1336,6 +1341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: armorSpawnInfo.chanceForThigh_R
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854412614716856584, guid: bedd10d3cf91e974d9eb6a8494a8142e,
+        type: 3}
+      propertyPath: npcType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 958111098, guid: bedd10d3cf91e974d9eb6a8494a8142e, type: 3}
       propertyPath: eventTriggerId
