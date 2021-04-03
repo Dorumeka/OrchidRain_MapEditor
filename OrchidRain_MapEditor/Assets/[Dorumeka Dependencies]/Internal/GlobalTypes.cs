@@ -93,7 +93,8 @@ public enum DamageType {
 	Dismember_Slash,
 	Dismember_Shot,
 	PassOut,
-	InstaGib
+	InstaGib,
+	Limp
 };
 
 public enum CauseOfDeath {
@@ -247,7 +248,8 @@ public enum HealthState {
 	PassedOut,
 	Dead,
 	Captured,
-	Saved
+	Saved,
+	Limp
 };
 
 public enum HairStyle {
@@ -444,4 +446,26 @@ public class StoredAccessory {
 	public int id;
 	public bool active = true;
 	public SerializableColor color;
+}
+
+public enum Vehicle_Weapon_Main {
+	None,
+	HeavyMecha_BigCannon,
+	HeavyMecha_TwinShooter
+}
+
+public enum Vehicle_Weapon_Secondary {
+	None,
+	HeavyMecha_HeavyTurret,
+	HeavyMecha_Laser
+}
+
+public enum Vehicle_Type {
+	Random,
+	HeavyMecha
+}
+
+public enum Pilot_Weapon {
+	None,
+	Makarov
 }
