@@ -467,5 +467,6 @@ public enum Vehicle_Type {
 
 public enum Pilot_Weapon {
 	None,
+	Random,
 	Makarov
 }
