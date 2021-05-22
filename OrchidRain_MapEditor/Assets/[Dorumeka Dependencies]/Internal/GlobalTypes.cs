@@ -9,7 +9,9 @@ public enum Ai_Weapon {
 	Makarov,
 	MakarovSilenced,
 	SMG,
-	KSG
+	KSG,
+	Doragon,
+	CrossbowGun
 };
 
 public enum PlayerWeapon {
@@ -19,7 +21,9 @@ public enum PlayerWeapon {
 	Makarov,
 	MakarovSilenced,
 	SMG,
-	KSG
+	KSG,
+	Doragon,
+	CrossbowGun
 }
 
 public enum PlayerItems {
@@ -94,7 +98,9 @@ public enum DamageType {
 	Dismember_Shot,
 	PassOut,
 	InstaGib,
-	Limp
+	Limp,
+	Poison,
+	BodyDetonation
 };
 
 public enum CauseOfDeath {

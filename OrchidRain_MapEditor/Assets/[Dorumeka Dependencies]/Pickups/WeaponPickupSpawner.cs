@@ -6,4 +6,5 @@ public class WeaponPickupSpawner : PickupSpawner {
 	[Space(5f)]
 	[Header("Variables")]
 	public PlayerWeapon weapon;
+	public int ammoType;
 }
