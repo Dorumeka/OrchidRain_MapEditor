@@ -13,4 +13,5 @@ public class MissionObject : MonoBehaviour {
 	public bool needsAnotherMission;
 	[Tooltip("-1: no mission needed || 0: all other missions needed")]
 	public int missionNeeded = -1;
+	public bool failIfRequirementNotMet = true;
 }
