@@ -9,6 +9,7 @@ public class NpcSpawner : MonoBehaviour {
 	public DoruStats overrideStats;
 	public Ai_Type aiType = Ai_Type.Wander;
 	public Waypoints_Behavior waypointsBehavior;
+	public bool alwaysWalkToWaypoints = true;
 	public Ai_Weapon weapon = Ai_Weapon.Random;
 	public GameObject overrideWeapon;
 	public Faction faction;

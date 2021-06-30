@@ -14,4 +14,5 @@ public class GenericAudioPlayer : AudioManager {
 	public float volume = 1f;
 	public float maxDistance = 20f;
 	public bool non3D = false;
+	public bool loop;
 }

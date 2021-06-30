@@ -4,4 +4,5 @@ using UnityEngine;
 
 public class SoundReceiver : EventReceiver {
 	private GenericAudioPlayer _audioPlayer;
+	public bool stop;
 }
